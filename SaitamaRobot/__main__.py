@@ -203,7 +203,7 @@ def start(update: Update, context: CallbackContext):
                              url=f"https://t.me/HuseynH"),
                          InlineKeyboardButton(
                              text="🎵 Playlist",
-                             url="https://t.me/FidanRobotPlaylist")
+                             url="https://t.me/FidanRobotPlaylis")
                      ],
                      [
                          InlineKeyboardButton(
