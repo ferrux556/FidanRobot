@@ -82,7 +82,7 @@ __help__ = """
 ✅ *Yalnız adminlər* tərəfindən istifadə oluna bilər !
 
 - `/tag` : Son görülməsi yaxın olan hərkəsi qarışıq *tağ edər*
-- `/tagall` : Qrupdan *100* nəfəri *tağ edər*
+- `/tektag` : Qrupdan *100* nəfəri *tağ edər*
 - `/admin` : Qrup adminlərini *tağ edər*
 - `/cancell` Aktiv tağ prosesini *dayandırır*
 """
