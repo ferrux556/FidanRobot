@@ -7,7 +7,7 @@ from pyrogram import filters
 from SaitamaRobot.pyrogramee.pluginshelper import admins_only, get_text
 from SaitamaRobot import pbot
 
-@pbot.on_message(filters.private & filters.incoming & filters.command(('all', ['!', '@', '/', '.'])))
+@pbot.on_message(filters.private & filters.incoming & filters.command(('tag')))
 async def all(client, message):
     await message.reply("🥳 Qarışıq Tağ Prosesi Başladı...")
     chat_id = message.chat.id
