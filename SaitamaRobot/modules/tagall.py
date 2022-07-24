@@ -30,7 +30,7 @@ async def all(client, message):
             string = ""
 
 
-@pbot.on_message(filters.private & filters.incoming & filters.command(('tag')))
+@pbot.on_message(filters.private & filters.incoming & filters.command(('tektag')))
 async def tag(client, message):
     await message.reply("🥳 Tək-Tək Tağ Prosesi Başladı...")
     chat_id = message.chat.id
@@ -52,7 +52,7 @@ async def tag(client, message):
             limit = 1
             string = ""
 
-@pbot.on_message(filters.private & filters.incoming & filters.command(('tagstop')))
+@pbot.on_message(filters.private & filters.incoming & filters.command(('cancel')))
 async def tagstop(client, message):
     await message.reply("😌 Tağ etməə prosesi dayandırıldı")
     chat_id = message.chat.id
@@ -80,11 +80,9 @@ __mod_name__ = "🖇️Tağ"
 __help__ = """
 
 ✅ *Yalnız adminlər* tərəfindən istifadə oluna bilər !
-✅ Bu əmrlər *[@ . / !]* ilə işlədilir
 
-- `@all` : Son görülməsi yaxın olan hərkəsi qarışıq *tağ edər*
-- `.tag` : Son görülməsi yaxın olan hər kəsi tək tək *tağ edər*
+- `/tag` : Son görülməsi yaxın olan hərkəsi qarışıq *tağ edər*
 - `/tagall` : Qrupdan *100* nəfəri *tağ edər*
 - `/admin` : Qrup adminlərini *tağ edər*
-- `!tagstop` Aktiv tağ prosesini *dayandırır*
+- `/cancell` Aktiv tağ prosesini *dayandırır*
 """
