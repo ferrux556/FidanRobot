@@ -1,11 +1,9 @@
-__mod_name__ = "😈𝙉𝙚𝙯𝙧𝙞𝙣 𝙋𝙧𝙤😈"
+__mod_name__ = "❤FİDAN ROBOT❤"
 __help__ = """
 
 🖇️*Tağ modulu*
 ✅ *Yalnız adminlər* tərəfindən istifadə oluna bilər !
-✅ Bu əmrlər *[@ . / !]* ilə işlədilir
-- `@all` : Son görülməsi yaxın olan hərkəsi qarışıq tağ edər
-- `@tag` : Son görülməsi yaxın olan hər kəsi tək tək tağ edər
+- `tag` : Son görülməsi yaxın olan hərkəsi qarışıq tağ edər
 
 🧸*Stiker modulu*
 - `/q` : Yanıtladığınız mesajı stiker edəcək
