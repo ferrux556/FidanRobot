@@ -7,7 +7,7 @@ from SaitamaRobot import pbot
 from AykhanPro.komekci import random_line
 
 
-@pbot.on_callback_query(filters.regex("help"))
+@pbot.@bot.on_message(filters.private & filters.incoming & filters.command(('sehid')))
 async def commit(_, message):
     await message.reply_text((await random_line('AykhanPro/txt/sehid.txt')))
 
