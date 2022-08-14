@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                     ]]))
     else:
         update.effective_message.reply_text(
-            "🧚‍♀Bəli, Mən Fidan♥️ İşləyirəm"
+            "🧚‍♀Bəli, Mən Mia♥️ İşləyirəm"
             .format(uptime),
             parse_mode=ParseMode.HTML)
 
@@ -263,7 +263,7 @@ def help_button(update, context):
     try:
         if mod_match:
             module = mod_match.group(1)
-            text = ("*{}* modulu haqqında məlumat:\n 👨🏻‍💻 *FidanRobot* ".format(
+            text = ("*{}* modulu haqqında məlumat:\n 👨🏻‍💻 *MiaBot* ".format(
                 HELPABLE[module].__mod_name__) + HELPABLE[module].__help__)
             query.message.edit_text(
                 text=text,
