@@ -195,15 +195,15 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(text="❓ Bütün Əmrlər", 
-        url=f"t.me/FidanRobot?start=help"),
+        url=f"https://t.me/MiaSaveBot"),
                    ],
                      [
                          InlineKeyboardButton(
                              text="👨‍💻 Sahibim",
-                             url=f"https://t.me/HuseynH"),
+                             url=f"https://t.me/BOSS_AWA"),
                          InlineKeyboardButton(
-                             text="🎵 Playlist",
-                             url="https://t.me/FidanRobotPlaylis")
+                             text="💫 Qrupumuz",
+                             url="https://t.me/tgKabus")
                      ],
                      [
                          InlineKeyboardButton(
